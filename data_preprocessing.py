@@ -3,12 +3,12 @@ import csv
 dataset_1 = []
 dataset_2 = []
 
-with open("final.csv", "r") as f:
+with open("C:\Games\pro c127\Final.csv", "r") as f:
     csvreader = csv.reader(f)
     for row in csvreader: 
         dataset_1.append(row)
 
-with open("archive_dataset_sorted1.csv", "r") as f:
+with open("C:\Games\pro c127\Archive_data_set.csv", "r") as f:
     csvreader = csv.reader(f)
     for row in csvreader: 
         dataset_2.append(row)
