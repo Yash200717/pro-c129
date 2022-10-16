@@ -2,7 +2,7 @@ import csv
 
 data = []
 
-with open("Archive_dataset.csv", "r") as f:
+with open("C:\Games\pro c127\Archive_data_set.csv", "r") as f:
     csvreader = csv.reader(f)
     for row in csvreader: 
         data.append(row)
